@@ -7,10 +7,7 @@ trigger:
 - main
 
 pool:
-- task: ServiceNow-DevOps-Agent-Artifact-Registration@1
-  inputs:
-    connectedServiceName: 'caixaesm-Azure Devops Pipeline-ServiceNow DevOps Service Connection'
-  vmImage: ubuntu-latest
+
 
 steps:
 - task: NodeTool@0
